@@ -1,39 +1,53 @@
-.logo{
+.logo {
     height: 40px;
 }
-.custom-list-nav{
+
+.custom-list-nav {
     list-style: none;
 }
-.custom-list-nav a{
+
+.custom-list-nav a,
+.custom-icon-footer {
     color: white;
     text-decoration: none;
 }
 
-.custom-size-icon-header{
+.custom-size-icon-header {
     height: 23px;
     width: 35px;
 }
-.film-card{
+
+.film-card {
     width: 250px;
     height: 200px;
     transition: transform 0.3s ease-in-out;
 }
-.film-card:hover{
-   transform: scale(1.1);
+
+.film-card:hover {
+    transform: scale(1.1);
 }
 
-.swiper-slide{
+.swiper-slide {
     width: 250px !important;
-    
+
 }
-.swiper-button-next, 
-.swiper-button-prev{
+
+.swiper-button-next,
+.swiper-button-prev {
     top: 50%;
     transform: translateY(-50%);
     color: white;
 }
 
-.hide-section{
+.hide-section {
     visibility: hidden;
 }
 
+.btn-custom-footer {
+    height: 20px;
+    border: 1px solid white;
+    width: 100px;
+}
+.size-footer{
+    font-size: 10px;
+}

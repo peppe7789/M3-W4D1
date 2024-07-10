@@ -26,7 +26,7 @@ let lastKnownScrollPosition = 0;
  
 // funzione per mostrare la sezione
 const showSection = (actualScrollPosition) => {
-    if (actualScrollPosition > 50) {
+    if (actualScrollPosition > 10) {
         console.log("funzione eseguita");
         hideSection.classList.remove("hide-section")
     }
