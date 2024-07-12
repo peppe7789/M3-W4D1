@@ -51,3 +51,20 @@
 .size-footer{
     font-size: 10px;
 }
+.offcanvas{
+    background-color: black;
+    color: gray;
+    width: 250px!important;
+}
+
+.size-cambia-profilo{
+    font-size: 10px;
+}
+
+.offcanvas-body li{
+    list-style: none;
+}
+.style-break{
+    border-top: 1px solid grey;
+    margin-top: 15px;
+}

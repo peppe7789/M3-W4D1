@@ -12,6 +12,7 @@
 </head>
 
 <body class="bg-dark">
+    <!-- navbar -->
     <nav>
         <div class="container-fluid bg-dark d-flex align-items-center justify-content-between navbar-expand-lg">
             <!-- navbar left -->
@@ -42,9 +43,9 @@
             <!-- navbar right -->
             <div class="text-white d-flex align-items-center gap-3 ">
                 <ion-icon name="search-outline"></ion-icon>
-                <span>Kids</span>
+                <span class="d-none d-md-block">Kids</span>
                 <ion-icon name="notifications-outline"></ion-icon>
-                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><img
+                <a class="dropdown-toggle d-none d-md-block" href="#" role="button" data-bs-toggle="dropdown"><img
                         src="./assets/imgs/avatar.png" alt=""></a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#"><img src="./assets/imgs/avatar.png" alt="">Profilo 2</a></li>
@@ -54,12 +55,12 @@
             </div>
         </div>
     </nav>
-
+    <!-- header -->
     <header>
         <div
             class="container-fluid text-white d-flex align-items-center justify-content-center justify-content-md-between gap-4 mb-3">
             <!-- header left -->
-            <div class="text-white d-flex align-items-center gap-4">
+            <div class="text-white d-flex align-items-center gap-4 mt-2">
                 <h1>
                     TV Shows
                 </h1>
@@ -175,7 +176,7 @@
                             <img class="w-100" src="./assets/imgs/movies/14.png" alt="">
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <!-- If we need navigation buttons -->
@@ -271,7 +272,7 @@
                             <img class="w-100" src="./assets/imgs/movies/5.png" alt="">
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <!-- If we need navigation buttons -->
@@ -378,8 +379,6 @@
         </div>
     </section>
 
-   
-
     <!-- footer -->
     <footer>
         <div class="container mt-2 text-white mb-3">
@@ -410,19 +409,19 @@
                             <span>Audio Description</span>
                             <span>Investor Relations</span>
                             <span>Legal Noticess</span>
-                            
+
                         </div>
                         <div class="col-6 col-md-3 d-flex flex-column gap-3">
                             <span>Help Center</span>
                             <span>Jobs</span>
                             <span>Cookie Preference</span>
-                            
+
                         </div>
                         <div class="col-6 col-md-3 d-flex flex-column gap-3">
                             <span>Gift Card</span>
                             <span>Terms of Use</span>
                             <span>Corporate Information</span>
-                            
+
                         </div>
                     </div>
                     <div class="btn-custom-footer d-flex justify-content-center align-items-center mb-2 ">
@@ -441,17 +440,38 @@
     <!-- canvas menu -->
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="burgermenu"
         aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+        <div class="d-flex flex-column justify-content-start p-3">
+            <div class="logo d-flex justify-content-start">
+                <img src="./assets/imgs/Netflix_Logo_RGB.png" alt="logo netflix" class="h-100 ">
+            </div>
+
+            <div class="offcanvas-title d-flex align-items-center " id="offcanvasWithBothOptionsLabel">
+                <div class="p-3">
+                    <img src="./assets/imgs/avatar.png" alt="">
+                </div>
+                <div class="d-flex flex-column">
+                    <span>Kids</span>
+                    <span class="size-cambia-profilo">Cambia profilo</span>
+                </div>
+            </div>
+            <div class="offcanvas-body ">
+                <ul class="m-0 p-0">
+                    <li>Account</li>
+                    <li>Centro Assistenza</li>
+                    <li>Esci da Netflix</li>
+                    <p class="style-break"></p>
+                    <li>Home</li>
+                    <li>La Mia Lista</li>
+                    <li>Thriller</li>
+                    <li>Film e TV Italiani</li>
+                    <li>Bambini e famiglie</li>
+                </ul>
+            </div>
+
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-            <p>Try scrolling the rest of the page to see this option in action.</p>
-        </div>
+        
     </div>
-
-<marquee behavior="" direction=""></marquee>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
